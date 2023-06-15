@@ -1,0 +1,23 @@
+
+.sobre {
+    padding: 2.5rem;
+    text-align: center;
+}
+
+.sobre__titulo {
+    font-family: 'Pacifico', cursive, sans-serif;
+    font-style: normal;
+    font-weight: 400;   
+    color: #8D0606;
+    font-size: 6.0rem;
+    line-height: 90px;
+    font-size: 3.2rem;
+}
+
+.sobre__descricao {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 1.75rem;
+    line-height: 33px;
+    color: #8C8888;
+}
