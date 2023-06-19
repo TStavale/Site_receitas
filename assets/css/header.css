@@ -49,7 +49,7 @@
         display: block;
         position: absolute; /* Ficar por cima de qualquer elemento na tela. */
         width: 100%;
-        top: 70px;
+        top: 50px;
         right: 0px;
         background: #f9f9f9;
         height: 0px;
@@ -134,7 +134,7 @@
         display: block;
         position: absolute; /* Ficar por cima de qualquer elemento na tela. */
         width: 100%;
-        top: 70px;
+        top: 40px;
         right: 0px;
         background: #f9f9f9;
         height: 0px;
