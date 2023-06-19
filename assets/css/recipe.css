@@ -105,6 +105,22 @@
     
 }
 
+@media screen and (max-width: 425px) {
+    .receitas {
+        padding: 3rem 0 0 1rem;
+    }
+    
+    .receita {
+        margin-right: 1rem;
+        width: 75%;
+    }
+
+    .receita:nth-child(3n) {
+        margin-right: 1rem;
+    }
+    
+}
+
 @media screen and (max-width: 380px) {
     .receitas {
         padding: 5rem 0 0 1rem;
