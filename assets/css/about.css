@@ -9,7 +9,7 @@
     font-style: normal;
     font-weight: 400;   
     color: #8D0606;
-    font-size: 6.0rem;
+    font-size: 4.5rem;
     line-height: 90px;
     font-size: 3.2rem;
 }
@@ -17,7 +17,37 @@
 .sobre__descricao {
     font-family: 'Roboto';
     font-weight: 300;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     line-height: 33px;
     color: #8C8888;
+}
+
+@media screen and (max-width: 768px) {
+    .sobre {
+        padding: 2.5rem;
+    }
+
+    .sobre__titulo {
+        font-size: 2.8rem;
+        line-height: 60px;
+    }
+
+    .sobre__descricao {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .sobre {
+        padding: 2.5rem 1rem;
+    }
+
+    .sobre__titulo {
+        font-size: 1.7rem;
+        line-height: 40px;
+    }
+
+    .sobre__descricao {
+        font-size: 0.95rem;
+    }
 }

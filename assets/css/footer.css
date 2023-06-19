@@ -46,3 +46,32 @@
     width: 55px;
     height: 55px;
 }
+
+@media screen and (max-width: 768px) {
+    .rodape {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .rodape {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+    }
+
+    .rodape__contato--email {
+        font-size: 1.3rem;
+    }
+
+    .rodape__midias--listas--icones {
+        width: 35px;
+        height: 35px;
+    }
+
+    .rodape__contato {
+        margin-right: 10px;
+    
+    }
+}

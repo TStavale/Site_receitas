@@ -15,7 +15,7 @@
     width: calc(30% - 5rem);
 }
 
- .receita:nth-child(3n) { /*Aqui eu estou tirando a margem da direira das caixas de receita que ficam a direita na página, faço isso usando 
+.receita:nth-child(3n) { /*Aqui eu estou tirando a margem da direira das caixas de receita que ficam a direita na página, faço isso usando 
                             o nth-child com mutiplos, no caso, mutiplos de 3, pois são 3 elementos por linha. */
     margin-right: 0;
 }
@@ -72,4 +72,50 @@
 
 .receita__botao:active {
     background: #8a0a0a;
+}
+
+@media screen and (max-width: 992px) {
+    .receitas {
+        padding: 5rem 0 0 5rem;
+    }
+    
+    .receita {
+        margin-right: 5rem;
+        width: calc(30% - 5rem);
+    }
+
+    .receita:nth-child(3n) {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .receitas {
+        padding: 5rem 0 0 2.5rem;
+    }
+    
+    .receita {
+        margin-right: 2.5rem;
+        width: calc(33% - 2.5rem)
+    }
+    
+    .receita:nth-child(3n) {
+        margin-right: 2.5rem;
+    }
+    
+}
+
+@media screen and (max-width: 380px) {
+    .receitas {
+        padding: 5rem 0 0 1rem;
+    }
+    
+    .receita {
+        margin-right: 1rem;
+        width: 90%;
+    }
+
+    .receita:nth-child(3n) {
+        margin-right: 1rem;
+    }
 }

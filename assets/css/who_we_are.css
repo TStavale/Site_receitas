@@ -76,3 +76,24 @@
 
     color: #595959;
 }
+
+@media screen and (max-width: 768px) {
+    .pessoas {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .pessoa {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .pessoas {
+        flex-direction: column;
+    }
+
+    .pessoa {
+        margin-bottom: 2rem;
+    }
+}
